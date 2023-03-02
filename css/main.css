@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-container {
+    display: flex;
+    
+}
+
+.right-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2D3748;
+}
+
+.right-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #1A202C;
+    margin-top: 2px;
+    margin-bottom: 24px;
+}
+
+.div-top {
+    width: 349px;
+    height: 437px;
+    margin-left: 193px;
+    margin-top: 232px;
+}
+
+.input-email {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 350px;
+    padding: 17px 20px;
+    display: block;
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.check{
+    width: 1.3em;
+    height: 1.3em;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+.div-bottom {
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2D3748;
+    margin-left: 12px;
+    margin-right: 100px;
+}
+
+.bottom-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2C5282;
+    text-decoration: none;
+}
+
+.button-1 {
+    padding: 15px 131px;
+    background: #04C45C;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 27px;
+}
+.button-2{
+    display: flex;
+    align-items: center;
+    padding: 15px 72px;
+    background: #2D3748;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border:none;
+    margin-top: 15px;
+}
+.bottom-img-1{
+    margin-right: 11px;
+}
